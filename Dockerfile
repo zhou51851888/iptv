@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # 复制你的 nginx.conf 到容器内
-COPY alpine/nginx.conf /etc/nginx/nginx.conf
+COPY alpine/mytv/alpine/nginx.conf /etc/nginx/nginx.conf
 
 # 设置工作目录
 WORKDIR /etc/nginx
